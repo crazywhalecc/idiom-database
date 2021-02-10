@@ -1,9 +1,11 @@
 # idiom-database
 成语数据库，成语接龙数据库，拥有30000+个成语，可直接使用首拼音和尾拼音编写自己的成语接龙
 
-数据来源于中华新华字典项目，链接：[](https://github.com/pwxcoo/chinese-xinhua)。
+数据来源于中华新华字典项目，链接：[https://github.com/pwxcoo/chinese-xinhua](https://github.com/pwxcoo/chinese-xinhua)。
 
 本项目对上方的新华字典中的成语部分进行了优化和修正，调整成语的拼音，增加了无声调的拼音和首尾字母的拼音，方便编写成语接龙游戏。
+
+目前有 json、csv、sql 三种格式，原始数据为 json，csv 和 sql 是由 json 转换而来，方便直接操作。
 
 ## 例子
 | derivation                                                   | example                                                      | explanation                                                  | pinyin           | word     | abbreviation | pinyin_r         | first | last  |
